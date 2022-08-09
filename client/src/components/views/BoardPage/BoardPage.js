@@ -30,7 +30,7 @@ function BoardPage() {
         return <div key={index}  style={{display: 'flex', flexDirection: 'column'}} >
             <div>
                 <a href={`/blog/${blog._id}`} >
-                <img style={{ width: '100%' }} src={`http://localhost:5001/${blog.filePath}`} alt='Main pic' controls></img>
+                <img style={{ width: '100%' }} src={`http://localhost:5000/${blog.filePath}`} alt='Main pic' controls></img>
                 </a>
             </div>
             <button>

@@ -35,16 +35,16 @@ router.post("/uploadfiles", (req, res) => {
 
 });
 
-router.get("/uploadfiles", (req, res) => {
+// router.get("/uploadfiles", (req, res) => {
 
-  Blog.find()
-      .populate('fileName')
-      .exec((err, blogs) => {
-          if(err) return res.status(400).send(err);
-          res.status(200).json({ success: true, blogs })
-      })
+//   Blog.find()
+//       .populate('fileName')
+//       .exec((err, blogs) => {
+//           if(err) return res.status(400).send(err);
+//           res.status(200).json({ success: true, blogs })
+//       })
 
-});
+// });
 
 router.post("/getBlogs", (req, res) => {
 
