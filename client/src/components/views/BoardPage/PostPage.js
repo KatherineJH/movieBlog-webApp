@@ -109,7 +109,6 @@ function PostPage(props) {
                     </Dropzone>
                     {/* <FileUpload /> */}
                     <div className='file' style={{display:"flex", alignItems:"center", textAlign:"center", fontSize:"1rem"}}>
-                    {/* <img  style={{minWidth:'300px', width: '300px', height:'240px'}}  src={`http://localhost:5001/${FilePath}`}></img> */}
                         <p>{FilePath}</p>                      
                     </div>                    
                 </div>
