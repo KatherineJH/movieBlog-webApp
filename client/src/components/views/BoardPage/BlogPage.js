@@ -51,7 +51,7 @@ function BlogPage() {
                 <span style={{ fontSize:'2rem'}}>
                 {moment(Blog.updatedAt).format("MMM Do YY")} 
                 </span>
-                <img style={{ width: '100%' }} src={`https://secret-waters-71685.herokuapp.com/${Blog.filePath}`} controls></img>
+                <img style={{ width: '100%' }} src={`http://localhost:5000/${Blog.filePath}`} controls></img>
                 <span style={{ fontSize:'1.5rem'}}>Author: {Blog.writer.name}</span>
                 <br /><br />
                 <h1>Title: {Blog.title}</h1>

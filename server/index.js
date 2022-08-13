@@ -9,8 +9,6 @@ const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
 // Cookie: client, DB(MongoDB): server
 
-// middleware
-const{ auth } = require('./middleware/auth')
 // configuration
 const config = require('./configuration/key');
 

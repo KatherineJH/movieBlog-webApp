@@ -1,7 +1,6 @@
 const express = require('express');
 const router = express.Router();
 const { Blog } = require('../models/Blog');
-const { auth } = require("../middleware/auth");
 const multer = require('multer');
 
 // < ------------- Board and Post ----------------> //
